@@ -54,5 +54,14 @@ a{
     padding-right: 16px;
     margin-right: auto;
     margin-left: auto;
-    background-color: #77944A;
+}
+
+section{
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
 }
